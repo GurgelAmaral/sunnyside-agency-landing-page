@@ -62,10 +62,12 @@ main {
 #main-tr-img {
     grid-area: egg;
     overflow: hidden;
+    text-align: center;
+    background-color: #FED000;
 }
 
 #main-tr-img img {
-    width: 100%;
+    width: 375px;
 }
 
 #main-tr-text {
@@ -81,10 +83,12 @@ main {
 #main-st-img {
     grid-area: cup;
     overflow: hidden;
+    text-align: center;
+    background-color: #FE786C;
 }
 
 #main-st-img img {
-    width: 100%;
+    width: 375px;
 }
 
 #main-st-text {
@@ -100,9 +104,10 @@ main {
 #main-graphic-text {
     grid-area: graphic;
     background-image: url('../images/mobile/image-graphic-design.jpg');
-    background-size: 100vw;
+    background-size: 375px;
+    background-position: center;
     background-repeat: no-repeat;
-    background-color: yellowgreen;
+    background-color: #9CDCCC;
     text-align: center;
     padding: 400px 20px 40px 20px;
     color: hsl(167, 40%, 24%);
@@ -111,10 +116,10 @@ main {
 #main-ph-text {
     grid-area: photo;
     background-image: url('../images/mobile/image-photography.jpg');
-    background-position: top;
-    background-size: 100vw;
+    background-position: center;
+    background-size: 375px;
     background-repeat: no-repeat;
-    background-color: tomato;
+    background-color: #65CDFF;
     text-align: center;
     padding: 400px 20px 40px 20px;
 }
@@ -178,14 +183,14 @@ footer ul {
     align-items: center;
 }
 
-#footer-title{
+#footer-title {
     font-family: "Barlow";
     font-weight: bold !important;
     font-size: 2rem;
     color: hsl(168, 34%, 41%);
 }
 
-#social-media-icons{
+#social-media-icons {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -229,27 +234,27 @@ footer ul {
     line-height: 2rem;
 }
 
-#graphic-title{
+#graphic-title {
     font-size: 2rem;
 }
 
-#graphic-p{
+#graphic-p {
     font-family: "Barlow";
 }
 
-#ph-title{
+#ph-title {
     font-family: 'Fraunces';
     font-weight: bold;
     font-size: 2rem;
     color: hsl(198, 62%, 26%);
 }
 
-#ph-p{
+#ph-p {
     font-family: 'Barlow';
     color: hsl(198, 62%, 26%);
 }
 
-#title-t{
+#title-t {
     font-family: "Fraunces";
     font-size: 1rem;
     font-weight: bold;
@@ -257,17 +262,36 @@ footer ul {
     color: rgba(128, 128, 128, 0.719);
 }
 
-.client-text{
+.client-text {
     font-family: 'Barlow';
     color: grey;
 }
 
-.client-name{
+.client-name {
     font-family: "Fraunces";
     font-weight: bold;
 }
 
-.client-prof{
+.client-prof {
     color: rgba(128, 128, 128, 0.548);
     font-family: 'Barlow';
+}
+
+@media screen and (min-width: 377px) {
+    #main-graphic-text {
+        background-image: url('../images/desktop/image-graphic-design.jpg');
+        background-position: top;
+        background-size: 700px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #main-st-img img{
+        width: 320px;
+    }
+
+    #main-tr-img img{
+        width: 320px;
+    }
+    
 }
