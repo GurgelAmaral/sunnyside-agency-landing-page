@@ -25,9 +25,9 @@
                 <li><a href="">About</a></li>
                 <li><a href="">Services</a></li>
                 <li><a href="">Projects</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a id="contact-button" href="">CONTACT</a></li>
             </ul>
-            <svg width="24" height="18" xmlns="http://www.w3.org/2000/svg">
+            <svg id="hamb-menu" width="24" height="18" xmlns="http://www.w3.org/2000/svg">
                 <path d="M24 16v2H0v-2h24zm0-8v2H0V8h24zm0-8v2H0V0h24z" fill="#FFF" fill-rule="evenodd" />
             </svg>
         </nav>
@@ -72,22 +72,30 @@
         </div>
         <div id="main-graphic-text">
             <h3 id="graphic-title" class="main-title fraunces-text">Graphic design</h3>
-            <p id="graphic-p">
-                Great design makes you memorable. We deliver artwork that underscores your brand message and captures
-                potential clients’ attention.
-            </p>
+            <div class="main-div-p">
+                <p id="graphic-p">
+                    Great design makes you memorable. We deliver artwork that underscores your brand message and
+                    captures
+                    potential clients’ attention.
+                </p>
+            </div>
+
         </div>
         <div id="main-ph-text">
             <h3 id="ph-title" class="main-title">Photography</h3>
-            <p id="ph-p">
-                Increase your credibility by getting the most stunning, high-quality photos that improve your business
-                image.
-            </p>
+            <div class="main-div-p">
+                <p id="ph-p">
+                    Increase your credibility by getting the most stunning, high-quality photos that improve your
+                    business
+                    image.
+                </p>
+            </div>
+
         </div>
     </main>
+    <div id="title-t" class="mb-5">CLIENT TESTIMONIALS</div>
     <section id="section-client-t">
-        <div id="title-t" class="mb-5">CLIENT TESTIMONIALS</div>
-        <div>
+        <div class="client-div">
             <img class="main-title" src="./images/image-emily.jpg" alt="fotografia de Emily R.">
             <p class="client-text">
                 We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were
@@ -100,7 +108,7 @@
                 Marketing Director
             </p>
         </div>
-        <div>
+        <div class="client-div">
             <img class="main-title" src="./images/image-thomas.jpg" alt="fotografia de Thomas S.">
             <p class="client-text">
                 Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
@@ -113,12 +121,12 @@
                 Chief Operating Officer
             </p>
         </div>
-        <div>
+        <div class="client-div">
             <img class="main-title" src="./images/image-jennie.jpg" alt="fotografia de Jennie F.">
             <p class="client-text">
                 Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
             </p>
-            <p class="client-name"> 
+            <p class="client-name">
                 Jennie F.
             </p>
             <p class="client-prof">
