@@ -371,6 +371,7 @@ footer ul {
     #trans-text{
         width: 450px;
         text-align: left;
+        margin-top: 25px;
     }
 
     #stand-title{
@@ -381,11 +382,13 @@ footer ul {
     #stand-text{
         width: 450px;
         text-align: left;
+        margin-top: 25px;
     }
 
     .main-learn-more{
         text-align: left;
         width: 450px;
+        margin-top: 20px;
     }
     
 
@@ -418,7 +421,7 @@ footer ul {
         display: flex;
         flex-direction: row;
         gap: 55px;
-    }
+    }  
 }
 
 @media screen and (min-width: 413px) {
