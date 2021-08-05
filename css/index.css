@@ -310,6 +310,36 @@ footer ul {
     font-family: 'Barlow';
 }
 
+#contact-button-mobile{
+    background-color: #FED000;
+    padding: 15px;
+    border-radius: 30px;
+    color: #302e33 !important;
+}
+
+#menu-list-mobile li a{
+    color: #424242 !important;
+}
+
+#menu-list-mobile{
+    display: none;
+    width: 85%;
+    z-index: 10;
+    padding: 30px;
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    background-color: white;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: "Barlow";
+    font-size: 1.1rem;
+}
+
 @media screen and (min-width: 377px) {
     #main-graphic-text {
         background-image: url('../images/desktop/image-graphic-design.jpg');
