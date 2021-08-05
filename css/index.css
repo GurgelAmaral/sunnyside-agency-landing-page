@@ -55,8 +55,8 @@ header {
 
 main {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 50.66vh 75.66vh 50.66vh 75.66vh 105.66vh 105.66vh;
+    grid-template-columns: 100vw;
+    grid-template-rows: 300px 450px 300px 450px 590px 570px;
     grid-template-areas: "egg" "transf" "cup" "stand" "graphic" "photo"
 }
 
@@ -65,6 +65,10 @@ main {
     overflow: hidden;
     text-align: center;
     background-color: #FED000;
+    background-image: url('../images/desktop/image-transform.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #main-tr-img img {
