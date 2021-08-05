@@ -2,7 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    overflow-x: scroll;
+    overflow-x: hidden;
 }
 
 header {
