@@ -166,7 +166,9 @@ footer svg:hover{
     width: 100%;
     text-align: center;
     color: #302e33 !important;
-    font-size: 1.2rem !important;
+    font-size: 1rem !important;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
 }
 
 #section-client-t {
@@ -537,7 +539,7 @@ footer ul {
     
 }
 
-@media screen and (min-width: 393px) {
+@media screen and (min-width: 393px) and (max-width: 1024px) {
     #trans-title{
         margin-bottom: 40px;
     }
